@@ -146,7 +146,7 @@ h1 {
 }
 
 .hero-summary {
-    max-width: 68ch;
+    max-width: Auto;
     color: #deedf2;
     margin-bottom: 20px;
     animation: reveal 1s ease;
@@ -237,7 +237,7 @@ h2::after {
 }
 
 .section p {
-    max-width: 76ch;
+    max-width: Auto;
     color: var(--muted);
     text-wrap: pretty;
     text-align: justify;
