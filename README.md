@@ -1,6 +1,6 @@
-# Naveen Kumar Portfolio
+# Naveen Kumar CV Website
 
-Personal resume website for an IT Infrastructure Engineer profile.
+Personal CV website for an IT Infrastructure Engineer profile.
 
 ## Stack
 
@@ -23,16 +23,36 @@ Personal resume website for an IT Infrastructure Engineer profile.
 
 ## Deploy on GitHub Pages
 
-1. Push your code to GitHub.
-2. Go to repository Settings.
-3. Open Pages.
-4. Set source to Deploy from branch.
-5. Select `main` and `/ (root)`.
-6. Save.
+If the repository is not created yet, run these commands from this folder:
 
-Site URL format:
+```bash
+git init
+git add .
+git commit -m "Build CV website"
+git branch -M main
+git remote add origin https://github.com/your-github-username/your-repository-name.git
+git push -u origin main
+```
 
-https://your-github-username.github.io/repository-name
+If the repository already exists, run:
+
+```bash
+git add .
+git commit -m "Update CV website"
+git push
+```
+
+Then enable GitHub Pages:
+
+1. Open your GitHub repository.
+2. Go to `Settings` > `Pages`.
+3. Under `Build and deployment`, choose `Deploy from a branch`.
+4. Select branch `main` and folder `/ (root)`.
+5. Click `Save`.
+
+Your CV will be live at:
+
+`https://your-github-username.github.io/your-repository-name/`
 
 ## Contact
 
