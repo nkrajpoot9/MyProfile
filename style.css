@@ -79,12 +79,28 @@ body {
 }
 
 .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     color: #fff;
     text-decoration: none;
     font-size: 1.08rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+}
+
+.brand-text {
+    line-height: 1;
+}
+
+.brand-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.65);
+    display: block;
 }
 
 .nav-links {
@@ -146,7 +162,7 @@ h1 {
 }
 
 .hero-summary {
-    max-width: 150ch;
+    max-width: Auto;
     color: #deedf2;
     margin-bottom: 20px;
     animation: reveal 1s ease;
@@ -237,7 +253,7 @@ h2::after {
 }
 
 .section p {
-    max-width: 150ch;
+    max-width: Auto;
     color: var(--muted);
     text-wrap: pretty;
     text-align: justify;
