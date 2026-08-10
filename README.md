@@ -60,5 +60,5 @@ https://<github-username>.github.io
 
 ## Contact
 
-- LinkedIn: https://linkedin.com/in/yourprofile
-- GitHub: https://github.com/yourusername
+- LinkedIn: https://www.linkedin.com/in/naveenkjr/
+- GitHub: https://github.com/nkrajpoot9
