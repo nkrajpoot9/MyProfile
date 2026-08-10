@@ -1,64 +1,40 @@
 # Naveen Kumar Portfolio
 
-Personal resume website hosted using GitHub Pages.
+Personal resume website for an IT Infrastructure Engineer profile.
 
-## Technologies
+## Stack
 
 - HTML5
 - CSS3
 - GitHub Pages
 
-## Features
+## Highlights
 
-- Responsive Design
-- Professional Resume Layout
-- Downloadable PDF Resume
-- Skills Overview
-- Project Portfolio
-- Certification Section
+- Resume-driven one-page layout
+- Responsive design for mobile and desktop
+- Downloadable PDF resume
+- About, Skills, Experience, Projects, and Certifications sections
+- Direct contact links (phone, email, LinkedIn, GitHub)
 
-## Local Testing
+## Run Locally
 
-Clone the repository:
+1. Open the project folder.
+2. Open `index.html` in a browser.
 
-```bash
-git clone https://github.com/<username>/<repo>.git
-```
+## Deploy on GitHub Pages
 
-Open:
+1. Push your code to GitHub.
+2. Go to repository Settings.
+3. Open Pages.
+4. Set source to Deploy from branch.
+5. Select `main` and `/ (root)`.
+6. Save.
 
-```bash
-index.html
-```
+Site URL format:
 
-in a browser.
-
-## Deployment
-
-Push changes to GitHub:
-
-```bash
-git add .
-git commit -m "Update resume site"
-git push origin main
-```
-
-Enable GitHub Pages:
-
-1. Repository Settings
-2. Pages
-3. Deploy from Branch
-4. Branch: main
-5. Folder: /root
-6. Save
-
-Your site will be available at:
-
-```text
-https://<github-username>.github.io
-```
+https://your-github-username.github.io/repository-name
 
 ## Contact
 
-- LinkedIn: https://www.linkedin.com/in/naveenkjr/
-- GitHub: https://github.com/nkrajpoot9
+- LinkedIn: https://linkedin.com/in/naveenkjr/
+- GitHub: https://github.com/nkrajpoot9/

@@ -3,127 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naveen Kumar - IT Infrastructure Engineer with 8+ years of experience in datacenter operations, cloud platforms, and automation.">
     <title>Naveen Kumar | IT Infrastructure Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="hero" id="top">
+        <div class="hero-shape hero-shape-one" aria-hidden="true"></div>
+        <div class="hero-shape hero-shape-two" aria-hidden="true"></div>
 
-<header>
-    <div class="container">
-        <h1>Naveen Kumar</h1>
-        <h2>IT Infrastructure Engineer | Cloud & Automation Enthusiast</h2>
+        <nav class="main-nav container" aria-label="Primary">
+            <a href="#top" class="brand">Naveen Kumar</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+            </div>
+        </nav>
 
-        <div class="header-links">
-            <a href="resume.pdf" download>📄 Download Resume</a>
-            <a href="https://github.com/nkrajpoot9/" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/naveenkjr/" target="_blank">LinkedIn</a>
+        <div class="container hero-content">
+            <img src="assets/profile.jpg" alt="Naveen Kumar profile photo" class="profile-image">
+
+            <div class="hero-text">
+                <p class="kicker">IT Infrastructure Engineer</p>
+                <h1>Naveen Kumar</h1>
+                <p class="hero-summary">
+                    Infrastructure and Systems Engineer with 8+ years of hands-on experience across enterprise datacenters,
+                    hybrid cloud, Linux and Windows platforms, and infrastructure automation.
+                </p>
+
+                <div class="header-links">
+                    <a href="resume.pdf" download>Download Resume</a>
+                    <a href="https://www.linkedin.com/in/naveenkjr/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="https://github.com/nkrajpoot9/" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+
+                <ul class="quick-contact" aria-label="Contact details">
+                    <li><a href="tel:+919412117767">+91 9412117767</a></li>
+                    <li><a href="mailto:naveen.rajpoot@outlook.com">naveen.rajpoot@outlook.com</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<section id="about">
-    <div class="container">
-        <h3>About Me</h3>
-        <p>
-            Experienced IT Infrastructure Engineer specializing in Windows Server,
-            Linux, VMware, Azure, AWS, Ansible, Terraform, SCCM, Active Directory,
-            and enterprise automation. Passionate about cloud technologies,
-            infrastructure as code, and operational excellence.
-        </p>
-    </div>
-</section>
+    <main>
+        <section id="about" class="section container">
+            <h2>About</h2>
+            <p>
+                Proven track record in Linux, Windows, AWS, and Azure environments, with strong delivery in Terraform,
+                Ansible, Docker, and GitHub Actions. Focused on improving uptime, reducing provisioning time, and
+                creating scalable infrastructure patterns through Infrastructure as Code.
+            </p>
+        </section>
 
-<section id="skills">
-    <div class="container">
-        <h3>Core Skills</h3>
+        <section id="skills" class="section container">
+            <h2>Core Skills</h2>
+            <div class="skills-grid">
+                <span>RHEL Linux</span>
+                <span>Windows Server</span>
+                <span>VMware vSphere</span>
+                <span>Azure</span>
+                <span>AWS</span>
+                <span>Terraform</span>
+                <span>Ansible / AWX</span>
+                <span>PowerShell</span>
+                <span>Bash</span>
+                <span>SCCM / MECM</span>
+                <span>Docker</span>
+                <span>GitHub</span>
+                <span>GitHub Actions</span>
+                <span>ServiceNow</span>
+            </div>
+        </section>
 
-        <div class="skills-grid">
-            <span>Windows Server</span>
-            <span>RHEL Linux</span>
-            <span>VMware vSphere</span>
-            <span>Nutanix AHV</span>
-            <span>Azure</span>
-            <span>AWS</span>
-            <span>Terraform</span>
-            <span>Ansible / AWX</span>
-            <span>PowerShell</span>
-            <span>Bash</span>
-            <span>SCCM / MECM</span>
-            <span>Active Directory</span>
-            <span>DNS / DHCP</span>
-            <span>GitHub</span>
-            <span>GitHub Actions</span>
-            <span>ServiceNow</span>
-        </div>
-    </div>
-</section>
+        <section id="experience" class="section container">
+            <h2>Professional Experience</h2>
+            <article class="card">
+                <div class="card-heading">
+                    <h3>Engineer II - IT Infrastructure</h3>
+                    <p class="org">Cencora</p>
+                </div>
+                <ul>
+                    <li>Automated server provisioning and post-build validation to accelerate delivery.</li>
+                    <li>Managed enterprise Linux and Windows infrastructure with operational stability.</li>
+                    <li>Supported VMware and Azure workloads in hybrid infrastructure environments.</li>
+                    <li>Implemented automation workflows using Terraform, Ansible, and PowerShell.</li>
+                    <li>Improved operational efficiency through Infrastructure as Code and repeatable standards.</li>
+                </ul>
+            </article>
+        </section>
 
-<section id="experience">
-    <div class="container">
-        <h3>Professional Experience</h3>
+        <section id="projects" class="section container">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <article class="card project-card">
+                    <h3>VM Provisioning Automation</h3>
+                    <p>Built Terraform and Ansible workflows to standardize VM lifecycle provisioning.</p>
+                </article>
+                <article class="card project-card">
+                    <h3>Server Health Check Framework</h3>
+                    <p>Created automated validation checks for Linux and Windows post-build readiness.</p>
+                </article>
+                <article class="card project-card">
+                    <h3>Agent Deployment Validation</h3>
+                    <p>Automated onboarding checks for CrowdStrike, Qualys, and New Relic agents.</p>
+                </article>
+                <article class="card project-card">
+                    <h3>RHEL Subscription Management</h3>
+                    <p>Established license lifecycle and compliance practices across enterprise estates.</p>
+                </article>
+            </div>
+        </section>
 
-        <div class="card">
-            <h4>Engineer II - IT Infrastructure</h4>
-            <p>Cencora</p>
-
-            <ul>
-                <li>Automate server provisioning and post-build validation.</li>
-                <li>Manage enterprise Linux and Windows infrastructure.</li>
-                <li>Support VMware, Azure, and cloud operations.</li>
-                <li>Implement automation using Terraform, Ansible, and PowerShell.</li>
-                <li>Drive operational efficiencies through Infrastructure as Code.</li>
+        <section id="certifications" class="section container">
+            <h2>Certifications</h2>
+            <ul class="certificate-list">
+                <li>Microsoft Azure Fundamentals (AZ-900) - In Progress</li>
+                <li>Target: Azure Administrator Associate (AZ-104)</li>
+                <li>Target: Azure Solutions Architect Expert (AZ-305)</li>
             </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>Copyright 2026 @Naveen K.</p>
+            <a href="#top">Back to top</a>
         </div>
-    </div>
-</section>
-
-<section id="projects">
-    <div class="container">
-        <h3>Featured Projects</h3>
-
-        <div class="project-grid">
-
-            <div class="card">
-                <h4>VM Provisioning Automation</h4>
-                <p>Terraform + Ansible driven VM lifecycle automation.</p>
-            </div>
-
-            <div class="card">
-                <h4>Server Health Check Framework</h4>
-                <p>Automated validation for Windows and Linux builds.</p>
-            </div>
-
-            <div class="card">
-                <h4>Agent Deployment Validation</h4>
-                <p>CrowdStrike, Qualys, New Relic onboarding automation.</p>
-            </div>
-
-            <div class="card">
-                <h4>RHEL Subscription Management</h4>
-                <p>Enterprise license compliance and lifecycle management.</p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section id="certifications">
-    <div class="container">
-        <h3>Certifications</h3>
-
-        <ul>
-            <li>Microsoft Azure Fundamentals (AZ-900) - In Progress</li>
-            <li>Future: AZ-104</li>
-            <li>Future: AZ-305</li>
-        </ul>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>© 2026 Naveen Kumar | Built with GitHub Pages</p>
-    </div>
-</footer>
-
+    </footer>
 </body>
 </html>
