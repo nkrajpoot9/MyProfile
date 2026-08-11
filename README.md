@@ -1,4 +1,4 @@
-# Naveen Kumar CV Website
+# NKR Web CV
 
 Personal CV website for an IT Infrastructure Engineer profile.
 
