@@ -1,13 +1,13 @@
 :root {
-    --bg: #efe7da;
-    --paper: #fffcf7;
-    --ink: #1d252f;
-    --muted: #4f5a67;
-    --accent: #0a7b76;
-    --accent-strong: #085d59;
-    --line: #d8d2c7;
-    --warm: #df8d1f;
-    --shadow: 0 18px 36px rgba(27, 35, 48, 0.12);
+    --bg: #f3f7f8;
+    --paper: #ffffff;
+    --ink: #1b2d36;
+    --muted: #52636d;
+    --accent: #4169c1;
+    --accent-strong: #31539b;
+    --line: #d8e2e5;
+    --warm: #d98a2b;
+    --shadow: 0 18px 36px rgba(24, 47, 58, 0.09);
     --radius: 18px;
 }
 
@@ -26,10 +26,15 @@ body {
     line-height: 1.68;
     letter-spacing: 0.01em;
     color: var(--ink);
-    background:
-        radial-gradient(circle at 0% 0%, #dfeee7 0%, rgba(223, 238, 231, 0) 50%),
-        radial-gradient(circle at 100% 100%, #fae5bd 0%, rgba(250, 229, 189, 0) 44%),
-        var(--bg);
+    background-color: var(--bg);
+    background-image:
+        radial-gradient(circle, rgba(65, 105, 193, 0.15) 1px, transparent 1.5px),
+        linear-gradient(rgba(65, 105, 193, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(65, 105, 193, 0.035) 1px, transparent 1px),
+        radial-gradient(circle at 0% 0%, #e2f0ee 0%, rgba(226, 240, 238, 0) 48%),
+        radial-gradient(circle at 100% 0%, #e7edff 0%, rgba(231, 237, 255, 0) 42%),
+        radial-gradient(circle at 100% 100%, #f8ecdc 0%, rgba(248, 236, 220, 0) 42%);
+    background-size: 44px 44px, 44px 44px, 44px 44px, auto, auto, auto;
 }
 
 .container {
@@ -237,7 +242,7 @@ h2 {
     font-family: "Fraunces", Georgia, "Times New Roman", serif;
     font-size: 1.45rem;
     margin-bottom: 16px;
-    color: #173f4a;
+    color: var(--ink);
     position: relative;
     width: fit-content;
 }
@@ -359,7 +364,7 @@ li {
 
 footer {
     margin-top: 68px;
-    border-top: 1px solid #d2c8b9;
+    border-top: 1px solid var(--line);
     padding: 20px 0 26px;
 }
 
@@ -369,7 +374,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 8px;
-    color: #3f4a56;
+    color: var(--muted);
 }
 
 .footer-inner a {
